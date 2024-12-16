@@ -1,83 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhamed Mustafa Anas - CV</title>
+    <title>Muhamed Mustafa Anas - Data Scientist Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Muhamed Mustafa Anas, AI Engineer and Data Scientist">
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        p {
-            margin: 10px 0;
-        }
-        section {
-            margin: 30px 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
+        .intro h1:before {
+            content: 'MUHAMED';
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Muhamed Mustafa Anas</h1>
-        <p>AI Engineer & Data Scientist</p>
-        <p>Email: <a href="mailto:eng.muhamedanas8@gmail.com">eng.muhamedanas8@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/anaas8">github.com/anaas8</a> | LinkedIn: <a href="https://www.linkedin.com/in/eng-muhamedanas">linkedin.com/in/eng-muhamedanas</a></p>
-    </header>
-    
-    <section>
-        <h2>Career Objectives</h2>
-        <p>A highly motivated Artificial Intelligence engineer employs data and AI to solve real-world problems, optimize businesses, and enhance people's lives...</p>
-    </section>
+    <!-- Navigation -->
+    <div class="main-nav">
+        <div class="container">
+            <header class="group top-nav">
+                <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+                    <span class="logo">MUHAMED</span>
+                </div>
+                <nav id="navbar-1" class="navbar item-nav">
+                    <ul>
+                        <li class="active"><a href="#about">About</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
 
-    <section>
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>AI Instructor</strong> at National Telecommunication Institute (May 2024 - Present)</li>
-            <li><strong>Data Scientist Intern</strong> at Fixed Solutions (Jul - Sep 2024)</li>
-            <li><strong>Machine Learning Engineer Intern</strong> at SHAI (2024)</li>
-            <li><strong>Machine Learning Intern</strong> at Egyptian Space Agency (2021)</li>
-        </ul>
-    </section>
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+        <div class="container">
+            <p>Hi, I’m Muhamed Mustafa Anas</p>
+            <div class="units-row units-split wrap">
+                <div class="unit-20">
+                    <img src="img/ava.jpg" alt="Muhamed Mustafa Anas">
+                </div>
+                <div class="unit-80">
+                    <h1>I am an<br><span id="typed"></span></h1>
+                </div>
+                <p>
+                    I am an AI Engineer, Data Scientist, and Instructor passionate about empowering businesses and individuals through data-driven insights and AI solutions. With extensive experience in teaching, freelancing, and building AI tools, I specialize in delivering innovative solutions tailored to specific industries like healthcare and beyond.
+                </p>
+            </div>
+        </div>
+    </div>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Bachelor's Degree</strong> in Computer Science, Helwan University (2018 - 2022)</li>
-        </ul>
-    </section>
+    <!-- Work Experience -->
+    <div class="work section second" id="experiences">
+        <div class="container">
+            <h1>Work<br>Experiences</h1>
+            <ul class="work-list">
+                <li>2024-Present</li>
+                <li><a href="#">National Telecommunication Institute</a></li>
+                <li>Part-time Instructor</li>
+            </ul>
+            <ul class="work-list">
+                <li>2024</li>
+                <li><a href="#">Freelance</a></li>
+                <li>AI Engineer & Data Scientist</li>
+            </ul>
+            <ul class="work-list">
+                <li>2024</li>
+                <li><a href="#">Fixed Solutions</a></li>
+                <li>Data Science Intern</li>
+            </ul>
+            <ul class="work-list">
+                <li>2024</li>
+                <li><a href="#">Egyptian Space Agency</a></li>
+                <li>Data Science Intern</li>
+            </ul>
+        </div>
+    </div>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python, C/C++, Java</li>
-            <li>Machine Learning, Deep Learning</li>
-            <li>Data Visualization (Matplotlib, Seaborn, Power BI)</li>
-        </ul>
-    </section>
-    
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>OCR System for Egyptian IDs:</strong> Developed an OCR system using Django...</li>
-            <li><strong>Author Classification from Arabic Content:</strong> NLP-based classification system...</li>
-        </ul>
-    </section>
+    <!-- Achievements -->
+    <div class="award section second" id="achievements">
+        <div class="container">
+            <h1>Awards &amp;<br>Achievements</h1>
+            <ul class="award-list list-flat">
+                <li>2024</li>
+                <li>Taught over 150 students in AI and Data Science</li>
+                <li>Delivered industry-specific training programs</li>
+            </ul>
+            <ul class="award-list list-flat">
+                <li>2023</li>
+                <li>Volunteer at Resala Charity Organization</li>
+                <li>Developed impactful educational initiatives</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+        <div class="container">
+            <h1>Technical<br>Skills</h1>
+            <ul class="skill-list list-flat">
+                <li>Programming Languages</li>
+                <li>C, C++, Java, Python, SQL</li>
+            </ul>
+            <ul class="skill-list list-flat">
+                <li>Data Science Tools</li>
+                <li>NumPy, Pandas, Selenium</li>
+                <li>matplotlib, seaborn, Power BI.</li>
+                <li>TensorFlow, Keras, PyTorch, OpenCV, YOLO, NLTK, Scikit-learn.</li>
+                <li>Hugging Face, Linux, Git, Docker, MLFlow, AWS, Flask.</li>
+                <li>Numpy, Pandas, PySpark</li>
+                <li>Numpy, Pandas, PySpark</li>
+            </ul>
+            <ul class="skill-list list-flat">
+                <li>AI Specializations</li>
+                <li>Machine Learning, Deep Learning, MLOps</li>
+                <li>Natural Language Processing, Computer Vision, LLMs</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="quote">
+        <div class="container text-centered">
+            <h1>Empowering the future through AI and Data Science.</h1>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="units-row">
+                <div class="unit-50">
+                    <p>Crafted by Muhamed Mustafa Anas</p>
+                </div>
+                <div class="unit-50">
+                    <ul class="social list-flat right">
+                        <li><a href="mailto:eng.muhamedanas8@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/eng-muhamedanas"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/anaas8"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+        function newTyped() {};
+        $(function() {
+            $("#typed").typed({
+                strings: ["AI Engineer", "Data Scientist", "Instructor"],
+                typeSpeed: 90,
+                backDelay: 700,
+                contentType: "html",
+                loop: true,
+                resetCallback: function() { newTyped(); }
+            });
+        });
+    </script>
 </body>
 </html>
